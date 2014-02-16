@@ -26,10 +26,14 @@ Note that you'll need to update your `Gruntfile.js`. If you're using Karma throu
 * `--skip-install`
 
   Skips the automatic execution of `bower` and `npm` after scaffolding has finished.
+  
+* `--framework=[framework]`
+
+Defaults to `angular`. Can be switched for another supported js framework like `ember`.
 
 * `--test-framework=[framework]`
 
-  Defaults to `mocha`. Can be switched for another supported testing framework like `jasmine` or `qunit`.
+  Defaults to `jasmine` for `angular` and `qunit` for `ember.js`. Can be switched for another supported testing framework like `jasmine` or `qunit`.
 
 * `--coffee`
 
